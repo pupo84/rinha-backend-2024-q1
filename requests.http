@@ -1,0 +1,32 @@
+POST http://localhost:8000/clientes/1/transacoes
+
+{
+    "valor": 150,
+    "tipo": "c",
+    "descricao": "descricao"
+}
+
+### 
+
+POST http://localhost:8000/clientes/1/transacoes
+
+{
+    "valor": 100,
+    "tipo": "d",
+    "descricao": "descricao"
+}
+
+### 
+
+POST http://localhost:8000/clientes
+
+{
+    "name": "Matheus Pupo",
+    "email": "matheus@pupo.com",
+    "document": "0123456789",
+    "limit": 100
+}
+
+### 
+
+GET http://localhost:8000/clientes/1/extrato
